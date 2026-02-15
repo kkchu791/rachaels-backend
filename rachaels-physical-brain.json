@@ -6,7 +6,7 @@
     {
       "name": "rachaels-consciousness",
       "image": "882424314092.dkr.ecr.us-west-1.amazonaws.com/deckards/replicant-repository:rachaels-consciousness",
-      "memory": 256,
+      "memory": 128,
       "cpu": 128,
       "essential": true,
       "portMappings": [
@@ -33,7 +33,5 @@
       }
     }
   ],
-  "requiresCompatibilities": ["EC2"],
-  "cpu": "128",
-  "memory": "256"
+  "requiresCompatibilities": ["EC2"]
 }
