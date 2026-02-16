@@ -63,7 +63,7 @@ setInterval(async () => {
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello, Kirk',
+    message: 'Hello, Deckard',
     timestamp: new Date().toISOString(),
     version: '1.0.0'
   });
@@ -100,5 +100,5 @@ app.get('/api/flags/stream', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`App listening on port ${port}`);
+  console.log(`Replicant listening on port ${port}`);
 });
